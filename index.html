@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card-API</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Tabela de Usuários</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="box">
-        <span class="borderLine"></span>
-        <form>
-        <img src="" alt="Foto de Perfil" id="profileImage">
-        <h2 id="name"></h2>
-        <p class = "email" id="email"></p>
-        <p class = "phone" id="phone"></p>
-        <p class = "city"  id="city"></p>
-        <p class = "country"  id="country"></p>
-        <input type="submit" value="List">
-    </form>
-    </div>
-    <script src="script.js"></script>
+  <table id="userTable">
+    <thead>
+      <tr>
+        <th class="foto">Foto</th>
+        <th class="nome">Nome</th>
+        <th class="email">E-mail</th>
+        <th class="telefone">Telefone</th>
+        <th class="cidade">Cidade</th>
+        <th class="pais">País</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
 </body>
 </html>
