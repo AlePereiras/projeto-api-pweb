@@ -17,7 +17,7 @@ fetch('https://randomuser.me/api/?nat=BR')
     cityElement.textContent = 'Cidade: ' + user.location.city;
     countryElement.textContent = 'País: ' + user.location.country;
   })
- 
-  function carregarHTML() {
-    window.location.href = 'index.html';
-     }
+
+function carregarHTML() {
+  window.location.href = 'index.html';
+}
