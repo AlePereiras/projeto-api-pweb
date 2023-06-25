@@ -47,3 +47,37 @@ img {
 .pais {
   color: #ff3c7b;
 }
+
+.botao1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 500px;
+  width: 100px;
+  height: 90px;
+  color: #ff3c7b;
+  background-color: #45f3ff;
+  border: #23242a;
+}
+
+.botao2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  width: 100px;
+  height: 90px;
+  margin-left: 10px;
+  color: #45f3ff;
+  background-color: #ff3c7b;
+  border: #23242a;
+}
+
+.botao3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  width: 100px;
+  height: 90px;
+  margin-left: 10px;
+  color: #ff3c7b;
+  background-color: #45f3ff;
+  border: #23242a;
+}
